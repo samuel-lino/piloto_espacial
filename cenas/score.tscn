@@ -1,0 +1,202 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://fonts/BOOKOSB.TTF" type="DynamicFontData" id=1]
+[ext_resource path="res://score.gd" type="Script" id=2]
+[ext_resource path="res://assets/meteoros/spaço.png" type="Texture" id=3]
+[ext_resource path="res://fonts/BOOKOSBI.TTF" type="DynamicFontData" id=4]
+[ext_resource path="res://assets/meteoros/recursos/botões-click.png" type="Texture" id=5]
+[ext_resource path="res://assets/meteoros/recursos/botões-hover.png" type="Texture" id=6]
+[ext_resource path="res://assets/meteoros/recursos/botões-normal.png" type="Texture" id=7]
+[ext_resource path="res://assets/meteoros/recursos/MyVeryOwnDeadShip.ogg" type="AudioStream" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 13
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
+
+[node name="score" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0.396078 )
+scale = Vector2( 1.255, 1 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 0.294
+anchor_top = 0.385
+anchor_right = 0.339
+anchor_bottom = 0.385
+margin_left = 152.0
+margin_top = 151.0
+margin_right = 329.0
+margin_bottom = 171.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "melhores pontuações"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 152.0
+margin_top = 199.0
+margin_right = 208.0
+margin_bottom = 405.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="pontuacao" type="Label" parent="GridContainer"]
+margin_right = 18.0
+margin_bottom = 17.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "1:"
+valign = 1
+uppercase = true
+
+[node name="pontuacao2" type="Label" parent="GridContainer"]
+margin_top = 21.0
+margin_right = 18.0
+margin_bottom = 38.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "2:"
+valign = 1
+uppercase = true
+
+[node name="pontuacao3" type="Label" parent="GridContainer"]
+margin_top = 42.0
+margin_right = 18.0
+margin_bottom = 59.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "3"
+valign = 1
+uppercase = true
+
+[node name="pontuacao4" type="Label" parent="GridContainer"]
+margin_top = 63.0
+margin_right = 18.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "4"
+valign = 1
+uppercase = true
+
+[node name="pontuacao5" type="Label" parent="GridContainer"]
+margin_top = 84.0
+margin_right = 18.0
+margin_bottom = 101.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "5"
+valign = 1
+uppercase = true
+
+[node name="pontuacao6" type="Label" parent="GridContainer"]
+margin_top = 105.0
+margin_right = 18.0
+margin_bottom = 122.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "6"
+valign = 1
+uppercase = true
+
+[node name="pontuacao7" type="Label" parent="GridContainer"]
+margin_top = 126.0
+margin_right = 18.0
+margin_bottom = 143.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "7"
+valign = 1
+uppercase = true
+
+[node name="pontuacao8" type="Label" parent="GridContainer"]
+margin_top = 147.0
+margin_right = 18.0
+margin_bottom = 164.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "8"
+valign = 1
+uppercase = true
+
+[node name="pontuacao9" type="Label" parent="GridContainer"]
+margin_top = 168.0
+margin_right = 18.0
+margin_bottom = 185.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "9"
+valign = 1
+uppercase = true
+
+[node name="pontuacao10" type="Label" parent="GridContainer"]
+margin_top = 189.0
+margin_right = 18.0
+margin_bottom = 206.0
+custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "10"
+valign = 1
+uppercase = true
+
+[node name="sair" type="TextureButton" parent="."]
+margin_left = 192.0
+margin_top = 424.0
+margin_right = 324.0
+margin_bottom = 464.0
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+expand = true
+
+[node name="Label" type="Label" parent="sair"]
+margin_left = 32.0
+margin_top = 10.0
+margin_right = 100.0
+margin_bottom = 30.0
+custom_colors/font_color = Color( 0.792157, 0.027451, 0.105882, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "voltar"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 8 )
+volume_db = 1.0
+autoplay = true
+
+[connection signal="pressed" from="sair" to="." method="_on_sair_pressed"]

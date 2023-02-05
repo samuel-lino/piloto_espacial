@@ -1,0 +1,88 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://assets/meteoros/spaço.png" type="Texture" id=1]
+[ext_resource path="res://fonts/BOOKOS.TTF" type="DynamicFontData" id=2]
+[ext_resource path="res://cenas/creditos.gd" type="Script" id=3]
+[ext_resource path="res://assets/meteoros/recursos/botões-hover.png" type="Texture" id=4]
+[ext_resource path="res://assets/meteoros/recursos/botões-click.png" type="Texture" id=5]
+[ext_resource path="res://assets/meteoros/recursos/botões-normal.png" type="Texture" id=6]
+[ext_resource path="res://fonts/BOOKOSBI.TTF" type="DynamicFontData" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 10
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 7 )
+
+[node name="creditos" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Spaço" type="Sprite" parent="."]
+scale = Vector2( 1.25, 1 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Label" type="Label" parent="."]
+margin_left = 61.0
+margin_right = 463.0
+margin_bottom = 501.0
+custom_colors/font_color = Color( 0.972549, 0.964706, 0.964706, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "creditos
+
+arte:
+arte da nave:
+Luis Zuno (@ansimuz)
+arte meteoros:
+Samuel Eduardo
+arte fundo:
+Samuel Eduardo
+arte lasers:
+Luis Zuno (@ansimuz)
+arte colecionaveis:
+Samuel Eduardo
+
+sons:
+som laser:
+dklon
+som explosão:
+Marcelo Fernandez(marcelofernandezmusic.com)
+som game over:
+zuvizu
+som do jogo:
+Luis Zuno (@ansimuz)
+som menu e interfaces:
+jardas
+
+criador do jogo:
+Samuel Eduardo"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="sair" type="TextureButton" parent="."]
+margin_left = 14.0
+margin_top = 451.0
+margin_right = 146.0
+margin_bottom = 491.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 4 )
+expand = true
+
+[node name="Label" type="Label" parent="sair"]
+margin_left = 32.0
+margin_top = 10.0
+margin_right = 100.0
+margin_bottom = 30.0
+custom_colors/font_color = Color( 0.792157, 0.027451, 0.105882, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "voltar"
+align = 1
+valign = 1
+uppercase = true
+
+[connection signal="pressed" from="sair" to="." method="_on_sair_pressed"]

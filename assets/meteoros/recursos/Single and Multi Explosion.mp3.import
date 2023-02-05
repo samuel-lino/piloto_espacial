@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Single and Multi Explosion.mp3-1a5c82f0187854b544e0e11014b49786.mp3str"
+
+[deps]
+
+source_file="res://assets/meteoros/recursos/Single and Multi Explosion.mp3"
+dest_files=[ "res://.import/Single and Multi Explosion.mp3-1a5c82f0187854b544e0e11014b49786.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
