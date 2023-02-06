@@ -12,9 +12,9 @@ config_version=4
 
 config/name="space pilot"
 run/main_scene="res://cenas/menu.tscn"
-boot_splash/image="res://assets/meteoros/recursos/MENU.png"
+boot_splash/image="res://assets/recursos/MENU.png"
 boot_splash/use_filter=false
-config/icon="res://assets/meteoros/recursos/space_pilot.png"
+config/icon="res://assets/recursos/space_pilot.png"
 config/windows_native_icon="res://icon.ico"
 
 [audio]

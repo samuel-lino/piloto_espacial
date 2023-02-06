@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://assets/meteoros/spaço.png" type="Texture" id=1]
+[ext_resource path="res://assets/recursos/botões-hover.png" type="Texture" id=1]
 [ext_resource path="res://fonts/BOOKOS.TTF" type="DynamicFontData" id=2]
 [ext_resource path="res://script/creditos.gd" type="Script" id=3]
-[ext_resource path="res://assets/meteoros/recursos/botões-hover.png" type="Texture" id=4]
-[ext_resource path="res://assets/meteoros/recursos/botões-click.png" type="Texture" id=5]
-[ext_resource path="res://assets/meteoros/recursos/botões-normal.png" type="Texture" id=6]
+[ext_resource path="res://assets/recursos/spaço.png" type="Texture" id=4]
+[ext_resource path="res://assets/recursos/botões-normal.png" type="Texture" id=5]
+[ext_resource path="res://assets/recursos/botões-click.png" type="Texture" id=6]
 [ext_resource path="res://fonts/BOOKOSBI.TTF" type="DynamicFontData" id=7]
 
 [sub_resource type="DynamicFont" id=1]
@@ -20,7 +20,7 @@ script = ExtResource( 3 )
 
 [node name="Spaço" type="Sprite" parent="."]
 scale = Vector2( 1.25, 1 )
-texture = ExtResource( 1 )
+texture = ExtResource( 4 )
 centered = false
 
 [node name="Label" type="Label" parent="."]
@@ -66,9 +66,9 @@ margin_left = 14.0
 margin_top = 451.0
 margin_right = 146.0
 margin_bottom = 491.0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 4 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 1 )
 expand = true
 
 [node name="Label" type="Label" parent="sair"]
