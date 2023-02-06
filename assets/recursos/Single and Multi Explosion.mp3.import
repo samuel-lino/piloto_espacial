@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Single and Multi Explosion.mp3-e6ed79faaaacaf2d931b44d693692880.mp3str"
+
+[deps]
+
+source_file="res://assets/recursos/Single and Multi Explosion.mp3"
+dest_files=[ "res://.import/Single and Multi Explosion.mp3-e6ed79faaaacaf2d931b44d693692880.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
