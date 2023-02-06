@@ -2,13 +2,13 @@
 
 [ext_resource path="res://fonts/BOOKOSB.TTF" type="DynamicFontData" id=1]
 [ext_resource path="res://fonts/BOOKOSBI.TTF" type="DynamicFontData" id=2]
-[ext_resource path="res://assets/meteoros/spaço.png" type="Texture" id=3]
-[ext_resource path="res://assets/meteoros/recursos/botões-click.png" type="Texture" id=4]
-[ext_resource path="res://assets/meteoros/recursos/botões-hover.png" type="Texture" id=5]
-[ext_resource path="res://assets/meteoros/recursos/botões-normal.png" type="Texture" id=6]
-[ext_resource path="res://assets/meteoros/recursos/MENU.png" type="Texture" id=7]
+[ext_resource path="res://assets/recursos/spaço.png" type="Texture" id=3]
+[ext_resource path="res://assets/recursos/botões-hover.png" type="Texture" id=4]
+[ext_resource path="res://assets/recursos/botões-normal.png" type="Texture" id=5]
+[ext_resource path="res://assets/recursos/botões-click.png" type="Texture" id=6]
+[ext_resource path="res://assets/recursos/MENU.png" type="Texture" id=7]
 [ext_resource path="res://script/menu.gd" type="Script" id=8]
-[ext_resource path="res://assets/meteoros/recursos/MyVeryOwnDeadShip.ogg" type="AudioStream" id=9]
+[ext_resource path="res://assets/recursos/MyVeryOwnDeadShip.ogg" type="AudioStream" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 1 )
@@ -41,9 +41,9 @@ margin_left = 192.0
 margin_top = 296.0
 margin_right = 324.0
 margin_bottom = 336.0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
 expand = true
 
 [node name="Label" type="Label" parent="jogar"]
@@ -65,9 +65,9 @@ margin_left = 192.0
 margin_top = 360.0
 margin_right = 324.0
 margin_bottom = 400.0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
 expand = true
 
 [node name="Label" type="Label" parent="pontuacao"]
@@ -89,9 +89,9 @@ margin_left = 192.0
 margin_top = 424.0
 margin_right = 324.0
 margin_bottom = 464.0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
 expand = true
 
 [node name="Label" type="Label" parent="sair"]
@@ -136,9 +136,9 @@ margin_left = 474.0
 margin_top = 473.0
 margin_right = 494.0
 margin_bottom = 493.0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
 expand = true
 
 [node name="Label" type="Label" parent="duvidas"]
@@ -160,9 +160,9 @@ margin_left = 450.0
 margin_top = 473.0
 margin_right = 470.0
 margin_bottom = 493.0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
 expand = true
 
 [node name="Label" type="Label" parent="informaçoes"]
