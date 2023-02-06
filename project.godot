@@ -17,9 +17,13 @@ boot_splash/use_filter=false
 config/icon="res://assets/meteoros/recursos/space_pilot.png"
 config/windows_native_icon="res://icon.ico"
 
+[audio]
+
+default_bus_layout="res://cenas/default_bus_layout.tres"
+
 [autoload]
 
-Main="*res://main.gd"
+Main="*res://script/main.gd"
 
 [display]
 

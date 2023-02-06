@@ -7,7 +7,7 @@
 [ext_resource path="res://assets/meteoros/recursos/botões-hover.png" type="Texture" id=5]
 [ext_resource path="res://assets/meteoros/recursos/botões-normal.png" type="Texture" id=6]
 [ext_resource path="res://assets/meteoros/recursos/MENU.png" type="Texture" id=7]
-[ext_resource path="res://cenas/menu.gd" type="Script" id=8]
+[ext_resource path="res://script/menu.gd" type="Script" id=8]
 [ext_resource path="res://assets/meteoros/recursos/MyVeryOwnDeadShip.ogg" type="AudioStream" id=9]
 
 [sub_resource type="DynamicFont" id=1]

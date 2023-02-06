@@ -2,7 +2,7 @@
 
 [ext_resource path="res://cenas/nave.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/meteoros/spaço.png" type="Texture" id=2]
-[ext_resource path="res://cenas/espaço.gd" type="Script" id=3]
+[ext_resource path="res://script/espaço.gd" type="Script" id=3]
 [ext_resource path="res://assets/meteoros/recursos/spaceship shooter .mp3" type="AudioStream" id=4]
 [ext_resource path="res://assets/meteoros/recursos/Single and Multi Explosion.mp3" type="AudioStream" id=5]
 

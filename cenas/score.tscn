@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://fonts/BOOKOSB.TTF" type="DynamicFontData" id=1]
-[ext_resource path="res://score.gd" type="Script" id=2]
+[ext_resource path="res://script/score.gd" type="Script" id=2]
 [ext_resource path="res://assets/meteoros/spaço.png" type="Texture" id=3]
 [ext_resource path="res://fonts/BOOKOSBI.TTF" type="DynamicFontData" id=4]
 [ext_resource path="res://assets/meteoros/recursos/botões-click.png" type="Texture" id=5]
