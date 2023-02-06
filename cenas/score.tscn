@@ -21,7 +21,7 @@ script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0.396078 )
-scale = Vector2( 1.255, 1 )
+scale = Vector2( 1.255, 1.4 )
 texture = ExtResource( 5 )
 centered = false
 
@@ -30,10 +30,10 @@ anchor_left = 0.294
 anchor_top = 0.385
 anchor_right = 0.339
 anchor_bottom = 0.385
-margin_left = 152.0
-margin_top = 151.0
-margin_right = 329.0
-margin_bottom = 171.0
+margin_left = 157.0
+margin_top = 205.0
+margin_right = 334.0
+margin_bottom = 225.0
 custom_colors/font_color = Color( 1, 0.737255, 0.137255, 1 )
 custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
@@ -44,10 +44,10 @@ valign = 1
 uppercase = true
 
 [node name="GridContainer" type="GridContainer" parent="."]
-margin_left = 152.0
-margin_top = 199.0
-margin_right = 208.0
-margin_bottom = 405.0
+margin_left = 154.0
+margin_top = 307.0
+margin_right = 210.0
+margin_bottom = 513.0
 grow_horizontal = 0
 grow_vertical = 0
 
@@ -171,10 +171,10 @@ valign = 1
 uppercase = true
 
 [node name="sair" type="TextureButton" parent="."]
-margin_left = 192.0
-margin_top = 424.0
-margin_right = 324.0
-margin_bottom = 464.0
+margin_left = 179.0
+margin_top = 601.0
+margin_right = 311.0
+margin_bottom = 641.0
 texture_normal = ExtResource( 6 )
 texture_pressed = ExtResource( 7 )
 texture_hover = ExtResource( 3 )

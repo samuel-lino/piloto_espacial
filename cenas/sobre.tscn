@@ -23,15 +23,15 @@ font_data = ExtResource( 11 )
 script = ExtResource( 7 )
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 1.255, 1 )
+scale = Vector2( 1.255, 1.4 )
 texture = ExtResource( 2 )
 centered = false
 
 [node name="Label" type="Label" parent="."]
 margin_left = 58.0
-margin_top = 52.0
+margin_top = 127.0
 margin_right = 460.0
-margin_bottom = 247.0
+margin_bottom = 322.0
 custom_colors/font_color = Color( 0.972549, 0.964706, 0.964706, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "space pilot, é um jogo de pontuação, onde quanto mais você sobrevive, maior sua pontuação; A pontuação é calculada pela quantidade de meteoros desviados e destruidos, onde os destruidos tem maior pontuação, o problema em destruid-los esta na capacidade de energia que sua nave contem, onde ela começa com 50 de energia, podendo aumenta-la coletando baterias, que surgem ao destruir meteoros, você também começa com uma taxa de recarga de 1 de energia por segundo, conseguindo aumenta-la coletando upgrades de gerador, por fim temos a sua armadura que você começa com 100 e não pode ser aumentada mas ela pode ser reparada com kits de reparo. "
@@ -39,7 +39,7 @@ valign = 1
 autowrap = true
 
 [node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( 71, 285 )
+position = Vector2( 71, 360 )
 texture = ExtResource( 9 )
 
 [node name="Label" type="Label" parent="Sprite2"]
@@ -54,7 +54,7 @@ valign = 1
 autowrap = true
 
 [node name="Sprite3" type="Sprite" parent="."]
-position = Vector2( 71, 314 )
+position = Vector2( 71, 389 )
 texture = ExtResource( 10 )
 
 [node name="Label" type="Label" parent="Sprite3"]
@@ -68,7 +68,7 @@ text = "upgrade de gerador"
 valign = 1
 
 [node name="Sprite4" type="Sprite" parent="."]
-position = Vector2( 72, 346 )
+position = Vector2( 72, 421 )
 texture = ExtResource( 8 )
 
 [node name="Label" type="Label" parent="Sprite4"]
@@ -86,10 +86,10 @@ stream = ExtResource( 6 )
 autoplay = true
 
 [node name="sair" type="TextureButton" parent="."]
-margin_left = 192.0
-margin_top = 424.0
-margin_right = 324.0
-margin_bottom = 464.0
+margin_left = 182.0
+margin_top = 611.0
+margin_right = 314.0
+margin_bottom = 651.0
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 texture_hover = ExtResource( 1 )

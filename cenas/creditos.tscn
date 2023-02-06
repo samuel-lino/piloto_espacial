@@ -9,7 +9,7 @@
 [ext_resource path="res://fonts/BOOKOSBI.TTF" type="DynamicFontData" id=7]
 
 [sub_resource type="DynamicFont" id=1]
-size = 10
+size = 14
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=2]
@@ -19,14 +19,14 @@ font_data = ExtResource( 7 )
 script = ExtResource( 3 )
 
 [node name="Spaço" type="Sprite" parent="."]
-scale = Vector2( 1.25, 1 )
+scale = Vector2( 1.25, 1.394 )
 texture = ExtResource( 4 )
 centered = false
 
 [node name="Label" type="Label" parent="."]
 margin_left = 61.0
 margin_right = 463.0
-margin_bottom = 501.0
+margin_bottom = 666.0
 custom_colors/font_color = Color( 0.972549, 0.964706, 0.964706, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "creditos
@@ -62,10 +62,10 @@ valign = 1
 autowrap = true
 
 [node name="sair" type="TextureButton" parent="."]
-margin_left = 14.0
-margin_top = 451.0
-margin_right = 146.0
-margin_bottom = 491.0
+margin_left = 10.0
+margin_top = 633.0
+margin_right = 142.0
+margin_bottom = 673.0
 texture_normal = ExtResource( 5 )
 texture_pressed = ExtResource( 6 )
 texture_hover = ExtResource( 1 )

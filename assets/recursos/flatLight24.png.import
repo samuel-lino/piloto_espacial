@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/touch_buttons_jump.png-0fdd1833fcedcc42d0a88254a70dd891.stex"
+path="res://.import/flatLight24.png-9db57c974eca5da34d0cbb4e74b2857d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/recursos/touch_buttons_jump.png"
-dest_files=[ "res://.import/touch_buttons_jump.png-0fdd1833fcedcc42d0a88254a70dd891.stex" ]
+source_file="res://assets/recursos/flatLight24.png"
+dest_files=[ "res://.import/flatLight24.png-9db57c974eca5da34d0cbb4e74b2857d.stex" ]
 
 [params]
 
