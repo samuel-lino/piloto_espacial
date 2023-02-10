@@ -22,7 +22,7 @@ func _physics_process(delta):
 	direction = movimento * velocidade
 	move_and_slide(direction).normalized()
 	global_position.x = clamp(global_position.x, 60, 440)
-	global_position.y = clamp(global_position.y, 15, 485)
+	global_position.y = clamp(global_position.y, 15, 685)
 	if vida_max != Main.vida_max or energia_max != Main.energia_max:
 		atualizar()
 	mudar_status()

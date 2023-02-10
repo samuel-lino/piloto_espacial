@@ -51,7 +51,7 @@ centered = false
 offset = Vector2( 50, 0 )
 
 [node name="nave" parent="." instance=ExtResource( 1 )]
-position = Vector2( 260, 487 )
+position = Vector2( 252, 681 )
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
