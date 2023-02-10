@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://assets/recursos/HUD.png" type="Texture" id=1]
 [ext_resource path="res://assets/recursos/botões-hover.png" type="Texture" id=2]
@@ -13,11 +13,6 @@
 [ext_resource path="res://assets/recursos/vida+.png" type="Texture" id=11]
 [ext_resource path="res://assets/recursos/vida.png" type="Texture" id=12]
 [ext_resource path="res://fonts/BOOKOSI.TTF" type="DynamicFontData" id=13]
-[ext_resource path="res://assets/recursos/flatLight24.png" type="Texture" id=14]
-[ext_resource path="res://assets/recursos/flatLight47.png" type="Texture" id=15]
-[ext_resource path="res://assets/recursos/flatLight25.png" type="Texture" id=16]
-[ext_resource path="res://assets/recursos/flatLight22.png" type="Texture" id=17]
-[ext_resource path="res://assets/recursos/flatLight23.png" type="Texture" id=18]
 
 [sub_resource type="DynamicFont" id=3]
 size = 8
@@ -206,40 +201,5 @@ margin_right = 46.0
 margin_bottom = 20.0
 custom_fonts/font = SubResource( 7 )
 text = "X0"
-
-[node name="direita" type="TouchScreenButton" parent="."]
-position = Vector2( 131, 562 )
-normal = ExtResource( 18 )
-pressed = ExtResource( 18 )
-action = "direita"
-visibility_mode = 1
-
-[node name="esquerda" type="TouchScreenButton" parent="."]
-position = Vector2( 9, 561 )
-normal = ExtResource( 17 )
-pressed = ExtResource( 17 )
-action = "esquerda"
-visibility_mode = 1
-
-[node name="cima" type="TouchScreenButton" parent="."]
-position = Vector2( 71, 508 )
-normal = ExtResource( 14 )
-pressed = ExtResource( 14 )
-action = "frente"
-visibility_mode = 1
-
-[node name="baixo" type="TouchScreenButton" parent="."]
-position = Vector2( 69, 616 )
-normal = ExtResource( 16 )
-pressed = ExtResource( 16 )
-action = "tras"
-visibility_mode = 1
-
-[node name="atirar" type="TouchScreenButton" parent="."]
-position = Vector2( 412, 573 )
-normal = ExtResource( 15 )
-pressed = ExtResource( 15 )
-action = "atirar"
-visibility_mode = 1
 
 [connection signal="pressed" from="game_over/Button" to="." method="_on_Button_pressed"]
